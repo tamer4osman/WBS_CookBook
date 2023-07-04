@@ -1,0 +1,12 @@
+/* ---- CARDS ---- */
+a>.card {
+    transition: all 0.2s ease-in-out;
+}
+
+a>.card:hover {
+    transform: translateY(-0.5rem);
+}
+
+a:has(>.card) {
+    text-decoration: none;
+}
