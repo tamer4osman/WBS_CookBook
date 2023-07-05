@@ -10,3 +10,34 @@ a>.card:hover {
 a:has(>.card) {
     text-decoration: none;
 }
+
+/* ---- Recipe Image Hover Effect ---- */
+.hover-img {
+    position: relative;
+}
+
+.hover-img:hover .hover-caption {
+    visibility: visible;
+    opacity: 1;
+}
+
+.hover-img img {
+    width: 100%;
+}
+
+.hover-caption {
+    position: absolute;
+    width: 100%;
+    bottom: 45%;
+    text-align: center;
+    z-index: 99;
+    visibility: none;
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+
+.hover-caption span {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: rgba(255, 255, 255, .75);
+}
