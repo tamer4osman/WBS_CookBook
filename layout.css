@@ -41,3 +41,10 @@ a:has(>.card) {
     border-radius: 0.5rem;
     background-color: rgba(255, 255, 255, .75);
 }
+
+/* Overwrite standard card-img style to have all images the same height */
+.card-img-top {
+    width: 100%;
+    height: 10vw;
+    object-fit: cover;
+}
