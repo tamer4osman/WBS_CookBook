@@ -7,174 +7,229 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="../layout.css">
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
         <div class="container">
-            <a href="#" class="navbar-brand">
+            <a href="../index.html" class="navbar-brand">
                 LOGO
             </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
                 <span class="navbar-toggler-icon"></span>
             </button>
-        </div>
 
-        <div class="collapse navbar-collapse" id="navmenu">
-            <ul class="navbar-nav ms-auto">
-                <div class="dropdown show">
-                    <a class="btn btn-secondary dropdown-toggle bg-dark me-5" href="#" role="button"
-                        id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Category 1
-                    </a>
-
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <a class="dropdown-item" href="#">Recipe 1</a>
-                        <a class="dropdown-item" href="#">Recipe 2</a>
-                        <a class="dropdown-item" href="#">Recipe 3</a>
-                    </div>
-                </div>
-                <div class="dropdown show">
-                    <a class="btn btn-secondary dropdown-toggle bg-dark me-5" href="#" role="button"
-                        id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Category 2
-                    </a>
-
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <a class="dropdown-item" href="#">Recipe 1</a>
-                        <a class="dropdown-item" href="#">Recipe 2</a>
-                        <a class="dropdown-item" href="#">Recipe 3</a>
-                    </div>
-                </div>
-                <div class="dropdown show">
-                    <a class="btn btn-secondary dropdown-toggle bg-dark me-5" href="#" role="button"
-                        id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Category 3
-                    </a>
-
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <a class="dropdown-item" href="#">Recipe 1</a>
-                        <a class="dropdown-item" href="#">Recipe 2</a>
-                        <a class="dropdown-item" href="#">Recipe 3</a>
-                    </div>
-                </div>
-            </ul>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Category 1
+                        </a>
+                        <ul class="dropdown-menu shadow">
+                            <li><a href="#" class="dropdown-item">Recipe 1</a></li>
+                            <li><a href="#" class="dropdown-item">Recipe 2</a></li>
+                            <li><a href="#" class="dropdown-item">Recipe 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Category 2
+                        </a>
+                        <ul class="dropdown-menu shadow">
+                            <li><a href="#" class="dropdown-item">Recipe 1</a></li>
+                            <li><a href="#" class="dropdown-item">Recipe 2</a></li>
+                            <li><a href="#" class="dropdown-item">Recipe 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Category 3
+                        </a>
+                        <ul class="dropdown-menu shadow">
+                            <li><a href="#" class="dropdown-item">Recipe 1</a></li>
+                            <li><a href="#" class="dropdown-item">Recipe 2</a></li>
+                            <li><a href="#" class="dropdown-item">Recipe 3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
     <div class="container-fluid">
-        <h1 class="text-primary text-center">Shrimp soup with coconut milk</h1>
-        <p class="text-secondary text-center">This shrimp soup with coconut milk is very aromatic, full-bodied and moderately spicy. This recipe is based on the recipe of the famous Thai soup Tom Yam, but with minor changes in the composition and cooking process.</p>
-        <img class="img-fluid rounded mx-auto d-block w-50 p-3"
-            src="https://i0.wp.com/takajaeda.com/wp-content/uploads/2021/11/IMG_20211128_155940-min.jpg?w=1170&ssl=1"
-            alt="Recipe Image">
-        <h2 class="text-secondary text-center">Ingredients</h2>
-        <table class="table rounded mx-auto d-block w-100 p-3">
-            <thead>
-                <tr>
-                    <th scope="col" class="table-primary">Ingredient</th>
-                    <th scope="col" class="table-primary">Quantity</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Chicken broth</td>
-                    <td>2.5 l</td>
-                </tr>
-                <tr>
-                    <td>"Shrimp (unpeeled)"</td>
-                    <td>400 gr</td>
-                </tr>
-                <tr>
-                    <td>Red fish</td>
-                    <td>200 gr</td>
-                </tr>
-                <tr>
-                    <td>Rice</td>
-                    <td>150 gr</td>
-                </tr>
-                <tr>
-                    <td>Champignons</td>
-                    <td>200 gr</td>
-                </tr>
-                <tr>
-                    <td>Coconut milk</td>
-                    <td>400 ml</td>
-                </tr>
-                <tr>
-                    <td>Onions</td>
-                    <td>1 pc</td>
-                </tr>
-                <tr>
-                    <td>Tomatoes in their own juice</td>
-                    <td>jar (400g.)</td>
-                </tr>
-                <tr>
-                    <td>Ginger</td>
-                    <td>2-3 cm</td>
-                </tr>
-                <tr>
-                    <td>Garlic</td>
-                    <td>1 clove</td>
-                </tr>
-                <tr>
-                    <td>Lemongrass</td>
-                    <td>1-2 pcs</td>
-                </tr>
-                <tr>
-                    <td>Lemon zest</td>
-                    <td>1 tsp</td>
-                </tr>
-                <tr>
-                    <td>Dried chili pepper</td>
-                    <td> 0.5 tsp</td>
-                </tr>
-                <tr>
-                    <td>Cilantro</td>
-                    <td>bunch</td>
-                </tr>
-                <tr>
-                    <td>Salt</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>Lime (or lemon)</td>
-                    <td>for serving</td>
-                </tr>
-            </tbody>
-        </table>
-        <h2 class="text-secondary text-center">Instructions</h2>
-        <ol>
-            <li>Clean the shrimp from the shells.Add shrimp shells to the finished chicken broth and cook for 15 minutes. Filter.</li>
-            <li>While the broth is cooking, prepare all the necessary ingredients for the soup.</li>
-            <li>Put pieces of ginger and garlic in a pan with heated butter. Fry for 5 minutes and remove them from the pan. During this time, the oil will absorb the aromas of ginger and garlic and they are no longer needed.</li>
-            <li>Put finely chopped onion in a frying pan with butter. Fry it until transparent.</li>
-            <li>Add mushrooms cut into slices to the onion. Stir and fry for 5 minutes.Add chopped tomatoes in their own juice (or fresh grated). Simmer for a few more minutes.</li>
-            <li>Boil rice until tender. We will serve it separately with the soup.</li>
-            <li>Put onion with mushrooms, peeled shrimps and small pieces of fish into a saucepan with broth. Now add the lemongrass, chili and lemon zest.</li>
-            <li>Pour in coconut milk. Stir and bring to a boil, cook for a few more minutes. Salt to taste.</li>
-            <li>At the end of cooking, you need to get the lemongrass pieces. It is not eaten, but added only to add flavor to the soup.</li>
-            <li>Ready shrimp soup with coconut milk is served with rice, cilantro and lime wedges.</li>
-        </ol>
-        <div class="text-center">
-            <button id="share-button" class="btn btn-secondary" type="button">Share</button>
+        <!-- Back to Category Overview-->
+        <div class="row justify-content-center my-3 my-lg-5">
+            <div class="col-12 col-md-10 col-lg-8">
+                <a href="../category_1.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="m14 7l-5 5l5 5V7z" />
+                    </svg>Back to Recipe List</a>
+            </div>
+        </div>
+
+        <div class="row justify-content-center my-3 my-lg-5">
+            <div class="col-12 col-md-10 col-lg-8">
+                <h1 class="text-center">Shrimp soup with coconut milk</h1>
+            </div>
+        </div>
+
+        <div class="row justify-content-center my-3 my-lg-5">
+            <div class="col-12 col-md-10 col-lg-8">
+                <p class="text-secondary text-center">This shrimp soup with coconut milk is very aromatic, full-bodied
+                    and
+                    moderately spicy. This recipe is based on the recipe of the famous Thai soup Tom Yam, but with minor
+                    changes
+                    in the composition and cooking process.</p>
+            </div>
+        </div>
+
+        <div class="row justify-content-center my-3 my-lg-5">
+            <div class="col-12 col-md-10 col-lg-8">
+                <div class="hover-img">
+                    <img class="img-fluid rounded mx-auto d-block w-50 p-3 shadow"
+                        src="https://i0.wp.com/takajaeda.com/wp-content/uploads/2021/11/IMG_20211128_155940-min.jpg?w=1170&ssl=1"
+                        alt="Recipe Image">
+                    <div class="hover-caption">
+                        <span class="shadow-lg">
+                            Shrimp soup with coconut milk
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center my-3 my-lg-5">
+            <div class="col-12 col-md-10 col-lg-8">
+                <h2 class="text-secondary text-center">Ingredients</h2>
+            </div>
+        </div>
+
+        <div class="row justify-content-center my-3 my-lg-5">
+            <div class="col-12 col-md-10 col-lg-8 table-responsive">
+                <table class="table table-striped">
+                    <thead class="table-dark">
+                        <tr>
+                            <th scope="col">Ingredient</th>
+                            <th scope="col">Quantity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Chicken broth</td>
+                            <td>2.5 l</td>
+                        </tr>
+                        <tr>
+                            <td>"Shrimp (unpeeled)"</td>
+                            <td>400 gr</td>
+                        </tr>
+                        <tr>
+                            <td>Red fish</td>
+                            <td>200 gr</td>
+                        </tr>
+                        <tr>
+                            <td>Rice</td>
+                            <td>150 gr</td>
+                        </tr>
+                        <tr>
+                            <td>Champignons</td>
+                            <td>200 gr</td>
+                        </tr>
+                        <tr>
+                            <td>Coconut milk</td>
+                            <td>400 ml</td>
+                        </tr>
+                        <tr>
+                            <td>Onions</td>
+                            <td>1 pc</td>
+                        </tr>
+                        <tr>
+                            <td>Tomatoes in their own juice</td>
+                            <td>jar (400g.)</td>
+                        </tr>
+                        <tr>
+                            <td>Ginger</td>
+                            <td>2-3 cm</td>
+                        </tr>
+                        <tr>
+                            <td>Garlic</td>
+                            <td>1 clove</td>
+                        </tr>
+                        <tr>
+                            <td>Lemongrass</td>
+                            <td>1-2 pcs</td>
+                        </tr>
+                        <tr>
+                            <td>Lemon zest</td>
+                            <td>1 tsp</td>
+                        </tr>
+                        <tr>
+                            <td>Dried chili pepper</td>
+                            <td> 0.5 tsp</td>
+                        </tr>
+                        <tr>
+                            <td>Cilantro</td>
+                            <td>bunch</td>
+                        </tr>
+                        <tr>
+                            <td>Salt</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Lime (or lemon)</td>
+                            <td>for serving</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="row justify-content-center my-3 my-lg-5">
+            <div class="col-12 col-md-10 col-lg-8">
+                <h2 class="text-secondary text-center">Instructions</h2>
+                <ol>
+                    <li>Clean the shrimp from the shells.Add shrimp shells to the finished chicken broth and cook for 15
+                        minutes. Filter.</li>
+                    <li>While the broth is cooking, prepare all the necessary ingredients for the soup.</li>
+                    <li>Put pieces of ginger and garlic in a pan with heated butter. Fry for 5 minutes and remove them
+                        from the
+                        pan. During this time, the oil will absorb the aromas of ginger and garlic and they are no
+                        longer
+                        needed.</li>
+                    <li>Put finely chopped onion in a frying pan with butter. Fry it until transparent.</li>
+                    <li>Add mushrooms cut into slices to the onion. Stir and fry for 5 minutes.Add chopped tomatoes in
+                        their own
+                        juice (or fresh grated). Simmer for a few more minutes.</li>
+                    <li>Boil rice until tender. We will serve it separately with the soup.</li>
+                    <li>Put onion with mushrooms, peeled shrimps and small pieces of fish into a saucepan with broth.
+                        Now add
+                        the lemongrass, chili and lemon zest.</li>
+                    <li>Pour in coconut milk. Stir and bring to a boil, cook for a few more minutes. Salt to taste.</li>
+                    <li>At the end of cooking, you need to get the lemongrass pieces. It is not eaten, but added only to
+                        add
+                        flavor to the soup.</li>
+                    <li>Ready shrimp soup with coconut milk is served with rice, cilantro and lime wedges.</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="row justify-content-center my-3 my-lg-5">
+            <div class="col-12 col-md-10 col-lg-8">
+                <div class="text-center">
+                    <button id="share-button" class="btn btn-secondary" type="button">Share</button>
+                </div>
+            </div>
         </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+    <script src="../app.js"></script>
 </body>
 
 </html>
