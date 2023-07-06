@@ -13,62 +13,69 @@
 <body>
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
         <div class="container">
-            <a href="#" class="navbar-brand">
+            <a href="index.html" class="navbar-brand">
                 LOGO
             </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
                 <span class="navbar-toggler-icon"></span>
             </button>
-        </div>
 
-        <div class="collapse navbar-collapse" id="navmenu">
-            <ul class="navbar-nav ms-auto">
-                <div class="dropdown show">
-                    <a class="btn btn-secondary dropdown-toggle bg-dark me-5" href="#" role="button"
-                        id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Category 1
-                    </a>
-
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <a class="dropdown-item" href="#">Recipe 1</a>
-                        <a class="dropdown-item" href="#">Recipe 2</a>
-                        <a class="dropdown-item" href="#">Recipe 3</a>
-                    </div>
-                </div>
-                <div class="dropdown show">
-                    <a class="btn btn-secondary dropdown-toggle bg-dark me-5" href="#" role="button"
-                        id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Category 2
-                    </a>
-
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <a class="dropdown-item" href="#">Recipe 1</a>
-                        <a class="dropdown-item" href="#">Recipe 2</a>
-                        <a class="dropdown-item" href="#">Recipe 3</a>
-                    </div>
-                </div>
-                <div class="dropdown show">
-                    <a class="btn btn-secondary dropdown-toggle bg-dark me-5" href="#" role="button"
-                        id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Category 3
-                    </a>
-
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <a class="dropdown-item" href="#">Recipe 1</a>
-                        <a class="dropdown-item" href="#">Recipe 2</a>
-                        <a class="dropdown-item" href="#">Recipe 3</a>
-                    </div>
-                </div>
-            </ul>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Category 1
+                        </a>
+                        <ul class="dropdown-menu shadow">
+                            <li><a href="#" class="dropdown-item">Recipe 1</a></li>
+                            <li><a href="#" class="dropdown-item">Recipe 2</a></li>
+                            <li><a href="#" class="dropdown-item">Recipe 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Category 2
+                        </a>
+                        <ul class="dropdown-menu shadow">
+                            <li><a href="#" class="dropdown-item">Recipe 1</a></li>
+                            <li><a href="#" class="dropdown-item">Recipe 2</a></li>
+                            <li><a href="#" class="dropdown-item">Recipe 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Category 3
+                        </a>
+                        <ul class="dropdown-menu shadow">
+                            <li><a href="#" class="dropdown-item">Recipe 1</a></li>
+                            <li><a href="#" class="dropdown-item">Recipe 2</a></li>
+                            <li><a href="#" class="dropdown-item">Recipe 3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
     <div class="container-fluid">
+        <!-- Back to Category Overview-->
+        <div class="row justify-content-center my-3 my-lg-5">
+            <div class="col-12 col-md-10 col-lg-8">
+                <a href="index.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="m14 7l-5 5l5 5V7z" />
+                    </svg>Back to Overview </a>
+            </div>
+        </div>
+
         <!-- Title -->
         <div class="row justify-content-center my-3 my-lg-5">
             <div class="col-12 col-md-10 col-lg-8">
-                <h1 class="text-center fw-bold">Category X Recipes</h1>
+                <h1 class="text-center fw-bold">Category 2 Recipes</h1>
             </div>
         </div>
         <!-- Welcome text -->
